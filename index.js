@@ -4,8 +4,6 @@ function generateSpacing(spacing) {
 	const value = spacing.match(/[+-]?\d+(\.\d+)?/)[0]
 	const unit = spacing.slice(spacing.indexOf(value) + value.length)
 
-	console.log(value, unit)
-
 	return {
 		'--gr-row-margin': -value / 2 + unit,
 		'--gr-col-padding': value / 2 + unit,

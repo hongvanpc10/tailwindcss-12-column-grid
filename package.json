@@ -1,13 +1,26 @@
 {
-	"name": "tailwindcss-12-column-grid",
+	"name": "@hongvanpc10/tailwindcss-12-column-grid",
 	"version": "1.0.0",
+	"description": "A plugin that provides utilities for making layout easier based on 12-column grids to design web pages.",
 	"main": "index.js",
-	"license": "MIT",
+	"directories": {
+		"example": "example"
+	},
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"watch": "tailwindcss -i ./example/input.css -o ./example/output.css --watch"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/hongvanpc10/tailwindcss-12-column-grid.git"
+	},
+	"author": "Hong Van",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/hongvanpc10/tailwindcss-12-column-grid/issues"
+	},
+	"homepage": "https://github.com/hongvanpc10/tailwindcss-12-column-grid#readme",
 	"devDependencies": {
 		"tailwindcss": "^3.2.4"
-	},
-	"type": "module",
-	"scripts": {
-		"watch": "tailwindcss -i ./example/input.css -o ./example/output.css --watch"
 	}
 }

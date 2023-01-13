@@ -1,17 +1,17 @@
-# @hongvanpc10/tailwind-grid-system
+# @hongvanpc10/tailwindcss-12-column-grid
 
 A plugin that provides utilities for making layout easier based on 12-column grids to design web pages.
 
 ## Installation
 
 ```shell
-npm i @hongvanpc10/tailwind-grid-system -D
+npm i @hongvanpc10/tailwindcss-12-column-grid -D
 ```
 
 or
 
 ```shell
-yarn add @hongvanpc10/tailwind-grid-system --dev
+yarn add @hongvanpc10/tailwindcss-12-column-grid --dev
 ```
 
 Then add the plugin to your `tailwind.config.js` file:
@@ -23,7 +23,7 @@ module.exports = {
     // ...
   },
   plugins: [
-    require('@hongvanpc10/tailwind-grid-system'),
+    require('@hongvanpc10/tailwindcss-12-column-grid'),
     // ...
   ],
 }
