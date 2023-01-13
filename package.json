@@ -1,0 +1,13 @@
+{
+	"name": "tailwindcss-12-column-grid",
+	"version": "1.0.0",
+	"main": "index.js",
+	"license": "MIT",
+	"devDependencies": {
+		"tailwindcss": "^3.2.4"
+	},
+	"type": "module",
+	"scripts": {
+		"watch": "tailwindcss -i ./example/input.css -o ./example/output.css --watch"
+	}
+}
