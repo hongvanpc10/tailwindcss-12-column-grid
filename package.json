@@ -1,6 +1,6 @@
 {
 	"name": "@hongvanpc10/tailwindcss-12-column-grid",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"description": "A plugin that provides utilities for making layout easier based on 12-column grids to design web pages.",
 	"main": "index.js",
 	"directories": {
@@ -15,7 +15,7 @@
 		"url": "git+https://github.com/hongvanpc10/tailwindcss-12-column-grid.git"
 	},
 	"author": "Hong Van",
-	"license": "ISC",
+	"license": "MIT",
 	"bugs": {
 		"url": "https://github.com/hongvanpc10/tailwindcss-12-column-grid/issues"
 	},
