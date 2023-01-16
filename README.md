@@ -51,6 +51,7 @@ To specify gutter, use class `gutter-{size}`, default is 1.5rem.
 | `gutter-xs` | `0.75rem` |
 | `gutter-sm` | `1rem` |
 | `gutter-md` | `1.25rem` |
+| `gutter` | `1.5rem` |
 | `gutter-lg` | `1.75rem` |
 | `gutter-xl` | `2rem` |
 

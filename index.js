@@ -20,6 +20,10 @@ module.exports = plugin(
 				margin: 'var(--gr-row-margin)',
 				flexWrap: 'wrap',
 			},
+
+			'.gutter': {
+				...generateSpacing('1.5rem'),
+			},
 		})
 
 		matchComponents(
